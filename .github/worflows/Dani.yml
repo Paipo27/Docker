@@ -21,4 +21,4 @@ jobs:
       - name: Build and push image
         run: |
           docker build -t ghcr.io/${{ secrets.GH_USERNAME }}/fastapi-app:latest .
-          docker push ghcr.io/${{ secrets.GH_USERNAME}}/fastapi-app:latest
+          docker push ghcr.io/${{ secrets.GH_USERNAME }}/fastapi-app:latest
